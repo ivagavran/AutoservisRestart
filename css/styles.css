@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    background-color: #303841;
+}
+
+h1{
+    width: 50%;
+    position: absolute;
+    color: #EEEEEE;
+    font-size: 5.625rem; /* 100% = 16px, 1em = 16px*, rem - ignores the other sizes*/
+    line-height: 1;
+    margin: 50px 170px;
+    font-family: 'Lalezar', cursive;
+    /*width: 10%;
+    margin: 0 auto; /*top and bottom 0, left and right auto*/
+}
+
+h2{
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    width: 50%;
+    line-height: 7;
+    position: absolute;
+    margin: 70px 170px;
+    color: #EEEEEE;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.wrench{
+    width:10%;
+    position: relative;
+    margin: 50px 0;
+    padding-right: 90%;
+    float: left;
+}
+
+.porsche{
+    width: 40%;
+    position: relative;
+    float: right;
+    margin:0%
+}
+
+p{
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.top-container{
+    margin:0;
+    background-color: #303841;
+    position: relative;
+}
+
+.restart{
+    color: #D72323;
+}
