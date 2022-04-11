@@ -8,8 +8,8 @@ Autoservis Restart nije samo fakultetski projekt, već će se sredinom ove godin
 
 ## Jezici i tehnologije 
 
-  1. HTML, CSS
-  2. Bootstrap
-  3. JavaScript
+  1. HTML
+  2. CSS
+  3. Bootstrap, JavaScript
   4. jQuery, Node.js
   5. React.js
