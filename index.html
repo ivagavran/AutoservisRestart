@@ -1,68 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autoservis Restart</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon_tire.ico?v=2">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lalezar&family=Merriweather:wght@400;900&family=Montserrat&family=Sacramento&display=swap"
-        rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Autoservis Restart</title>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header>
-        <h1>Autoservis <span class="restart">Restart</span></h1>
-        <h3>Popravak i održavanje motornih vozila</h3>
-    </header>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Autoservis <span class="restart">Restart</span></a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav navbar-expand ms-auto -lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="">Usluge</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Iskustva korisnika</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">O nama</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <nav>
-        <ul>
-            <li><a href="#">Početna</a></li>
-            <li><a href="pages/usluge.html">Usluge</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <!--za velike ekrane zauzima 6 unit col-->
+          <h5>Industrijska 39, 34 000 Požega</h5>
+          <h1 class="big-heading">Održavanje i popravak motornih vozila</h1>
 
-    <main>
-        <section class="aside">
-            <aside>
-                <h3>Održavanje automobila u 21. stoljeću</h3>
-                <p> Sloboda kretanja i udobnost putovanja koju nam omogućuje automobil nenadmašna je. 
-                    Kada je auto nov imamo tendenciju češće se brinuti za njega, no kako on stari ta briga blijedi te 
-                    odjednom ništa ne funkcionira i već razmišljamo o kupnji novog auta. No, ako ćete se pridržavati nekoliko osnovnih 
-                    pravila koje mora znati svaki vozač i vozačica, 
-                    mogućnost nezgode ili kvara smanjit ćete na minimum! Naravno, auto osiguranje i auto asistencija su uvijek tu za vas.
-                </p>
-            </aside>
-            <aside>
-                <h3>Automobili su naša strast</h3>
-                <p>Ne možemo zamisliti kako bi to bilo započeti dan bez mirisa prve kave i benzina. Auti su u našoj krvi te ih mi ne samo popravljamo,
-                    već im dajemo poseban pečat nakon kojeg automobil radi sa posebnim žarom.
-                </p>
-            </aside>
-        </section>
-        <section class="article">
-            <article>
-                <h2>Ugradnja plina</h2>
-                <p>Ugradnja plinske instalacije u automobil mnogima se čini kao dobra ideja, a na kraju to i jest. Sa svim atestima
-                 i dodatnim troškovima koji se mnogima čine nelogičnima, taj je pogon i gorivo na kraju jeftiniji od klasičnog benzinskog.
-                </p>
-                <p> Održavanje vozila i plinskog sistema ubrizgavanja možete odraditi u ovlaštenom servisu i nema potrebe još jednog 
-                odlaska u servis za servis plina.
-                </p>
-            </article>
-    </main>
+          <button type="button" class="btn btn-dark btn-lg radnovrijeme-button"><i
+              class="btn-icon fa-solid fa-clock"></i> Radno
+            vrijeme</button>
+          <button type="button" class="btn btn-outline-light btn-lg kontakt-button"> <i
+              class="btn-icon fa-solid fa-address-book"></i> Kontakt</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/white-porsche.png" alt="porsche">
+          <!--freepng.com-->
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
-        <p>&copy Copyright: FERIT, 2022</p>
-    </footer>
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="row">
+      <!--bootstrap grid-->
+      <div class="feature-box col-lg-3">
+        <i class="icon fa-solid fa-wrench fa-4x"></i>
+        <!--na lg i većem, svaki feature 1/3 što je 4-->
+        <h3>Servis</h3>
+        <p>Cjeloviti i temeljit servis vozila.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="icon fa-solid fa-microscope fa-4x"></i>
+        <h3>Optika</h3>
+        <p>Provjera optike pomoću najnovije tehnologije.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="icon fa-solid fa-gas-pump fa-4x"></i>
+        <h3>Plin</h3>
+        <p>Ugradnja i održavanje plina.</p>
+      </div>
+
+      <div class="feature-box col-lg-3">
+        <i class="icon fa-solid fa-car fa-4x"></i>
+        <h3>Gume</h3>
+        <p>Zamjena i provjera guma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Plin, servis, popravci - najbolji mehaničar u Požeškoj dolini. Brz i
+            efikasan, za svaku pohvalu. Bravo majstore Davore!"</h2>
+          <i class="heart fa-solid fa-heart fa-4x"></i>
+          <h3><em>Ivan Ivanković</em></h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Preporučujem! Vrlo pošteni i korektni, kvalitetno odrađuju posao i imaju razumne
+            cijene. Sve pohvale! 👍👍" </h2>
+          <i class="heart fa-solid fa-heart fa-4x"></i>
+          <h3><em>Marija Marinić</em></h3>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- O nama -->
+  <section class="white-section" id="onama">
+    <div class="uvod">
+      <h2 class="restartteam"><span class="restart">Restart</span> team</h2>
+      <p><i class="fa-solid fa-sun"></i> Autoservis Restart započeo je s radom 2015. godine.</p>
+      <p><i class="fa-solid fa-sun"></i> Osnovao ga je tada 21-godišnji majstor Davor. </p>
+      <p><i class="fa-solid fa-sun"></i> Motiviran svakodnevnim pohvalama, odlučio je započeti ovu uspješnu priču.</p>
+    </div>
+    <div class="row">
+      <div class="onama-column col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Majstor Autoelektričar</h3>
+            <h2>Davor</h2>
+            <img class="onama-image-davor" src="images/davor.png" alt="davor">
+            <div class="card-body">
+              <p><i class="fa-solid fa-circle-check"></i> 10 godina iskustva</p>
+              <p><i class="fa-solid fa-circle-check"></i> položen majstorski ispit</p>
+              <p><i class="fa-solid fa-circle-check"></i> certifikat za ugradnju plina</p>
+              <p><i class="fa-solid fa-circle-check"></i> certifikat za rad s optikom</p>
+              <p><i class="fa-solid fa-circle-check"></i> đak generacije Tehničke škole u Požegi 2012.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="onama-column col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Majstor Automehaničar</h3>
+            <h2>Antun</h2>
+            <img class="onama-image-antun" src="images/fake-antun.png" alt="fake-antun">
+            <div class="card-body">
+              <p><i class="fa-solid fa-circle-check"></i> položen majstorski ispit</p>
+              <p><i class="fa-solid fa-circle-check"></i> 4 godine iskustva</p>
+              <p><i class="fa-solid fa-circle-check"></i> odgovoran</p>
+              <p><i class="fa-solid fa-circle-check"></i> temeljit</p>
+              <p><i class="fa-solid fa-circle-check"></i> stopostotna uspješnost u radu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="colored-section" id="footer">
+    <p>© Copyright Slučajni prolaznici 2022.</p>
+  </footer>
 </body>
 
 </html>

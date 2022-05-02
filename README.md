@@ -10,6 +10,6 @@ Autoservis Restart nije samo fakultetski projekt, već će se sredinom ove godin
 
   1. HTML
   2. CSS
-  3. Bootstrap, JavaScript
-  4. jQuery, Node.js
+  3. Bootstrap
+  4. JavaScript, jQuery, Node.js
   5. React.js

@@ -1,169 +1,169 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    background-color: #3A4750;
-    color: #EEEEEE;
+    font-family: "Ubuntu";
 }
 
-header {
-    margin: 10px;
-    padding: 20px;
-    height: 190px;
+.restart {
+    color: #F73859;
+    font-weight: 900;
+}
+
+.btn-icon {
+    color: #F73859;
+}
+
+.container-fluid {
+    padding: 3% 10% 0 10%;
+}
+
+.colored-section {
     background-color: #303841;
-    border-radius: 10px;
-    background-image: url("../images/porsche.png");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: contain;
+    color: white;
 }
 
-header h1 {
-    height: 20%;
-    text-align: left;
-    font-size: 4em;
-    line-height: 1.5em;
-    font-family: 'Lalezar', cursive;
-    color: #EEEEEE;
+.white-section {
+    background-color: white;
 }
 
-header h3{
-    font-family: 'Merriweather', serif;
-    font-size: 1.7rem;
-    line-height: 7em;
-    height: 10%;
-    text-align: left;
-    color: #EEEEEE;
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
-nav {
-    font-family: 'Lalezar', cursive;
-    display: grid;
-    margin: 10px;
-    padding: 5px;
-    height: 100px;
-    background-color: #303841;
-    border-radius: 10px;
+h3 {
+    font-size: 1.5rem;
+    font-weight: 1000;
 }
 
-nav ul {
-    height: 100%;
-    border-radius: 10px;
-    list-style-type: none;
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 10rem 0 3rem 0;
+}
+
+p {
+    color: #8c8c8c;
+}
+
+h5 {
+    line-height: 1.5;
+    color: #8c8c8c;
+}
+
+.navbar {
+    padding: 0;
+    /*4.5 bottom only*/
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.radnovrijeme-button,
+.kontakt-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 110%;
+    padding: 7rem 0 2rem 0;
+}
+
+#features {
+    padding: 7% 15%;
+    /*7 top bottom, 15 left right*/
+}
+
+.feature-box {
     text-align: center;
-    line-height: 3.2em;
-    font-size: 1.5em;
+    padding: 5%;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 50px;
-    height: 100%;
-    width: 120px;
+.icon {
+    color: #303841;
+    margin-bottom: 2rem;
+    color: #F73859;
 }
 
-nav ul li a {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: #EEEEEE;
-    border-radius: 10px;
-}
-
-nav ul li a:hover {
-    background-color: #dfdce3;
+.icon:hover {
     color: black;
 }
 
-.wrench{
-    width:10%;
-    position: relative;
-    margin: 50px 0;
-    padding-right: 90%;
-    float: left;
-}
-
-.porsche{
-    width: 40%;
-    position: relative;
-    float: right;
-    margin:0%
-}
-
-.restart{
-    color: #D72323;
-}
-
-main {
-    margin: 10px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 20px;
-}
-
-section article, aside {
-    background-color: #303841;
-}
-
-section.aside{
-    grid-column: 1;
-    grid-row: 1;
-}
-
-section.article{
-    grid-column: 2;
-}
-
-
-section article {
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-section aside {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-footer {  
-    background-color: #303841;
-    margin: 10px;
-    padding: 5px;
-    height: 90px;
-    border-radius: 10px;
-}
-
-footer li {
-    display: inline-block;
+#testimonials {
     text-align: center;
-    width: auto;
-    height: auto;
 }
 
-footer li a {
-    display: inline-block;
-    width: auto;
-    height: auto;
+.carousel-item {
+    padding: 7% 15%;
 }
 
-footer li a:hover{
-    opacity: 0.5;
+.heart {
+    margin: 50px;
+    width: 10%;
+    color: #F73859;
 }
 
-footer p {
-    height: 50%;
-    width: 50%;
-    line-height: 1.625em;
-    text-align: right;
-    grid-row: 2;
-    grid-column: 2;
+#onama {
+    padding: 70px 90px 0 90px;
+    /*top left bottom right*/
 }
+
+.uvod {
+    padding: 0 0 0 4rem;
+}
+
+.onama-column {
+    padding: 7% 2%;
+    text-align: center;
+}
+
+.onama-image-davor {
+    width: 35%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.onama-image-antun {
+    width: 37%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 0 1% 0;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.restartteam {
+    padding: 0 0 3%;
+}
+
+@media (max-width: 1028) {
+
+    /*ne radi 84.*/
+    /*vrijedi za 1028 i manje od toga, ne za više*/
+    body {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        position: static;
+    }
+}
+
+/* id > class > h element */
