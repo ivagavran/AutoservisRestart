@@ -23,6 +23,7 @@
 </head>
 
 <body>
+
   <section class="colored-section" id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
@@ -53,13 +54,14 @@
         <div class="col-lg-6">
           <!--za velike ekrane zauzima 6 unit col-->
           <h5>Industrijska 39, 34 000 Požega</h5>
-          <h1 class="big-heading">Održavanje i popravak motornih vozila</h1>
+          <h1 class="big-heading" onmouseover="mOver(this)" onmouseout="mOut(this)">Održavanje i popravak motornih
+            vozila</h1>
 
           <button type="button" class="btn btn-dark btn-lg radnovrijeme-button"><i
               class="btn-icon fa-solid fa-clock"></i> Radno
             vrijeme</button>
-          <button type="button" class="btn btn-outline-light btn-lg kontakt-button"> <i
-              class="btn-icon fa-solid fa-address-book"></i> Kontakt</button>
+          <button type="button" class="btn btn-outline-light btn-lg kontakt-button" onmousedown="mDown(this)"
+            onmouseup="mUp(this)"> <i class="btn-icon fa-solid fa-address-book"></i> Kontakt</button>
         </div>
         <div class="col-lg-6">
           <img class="title-image" src="images/white-porsche.png" alt="porsche">
@@ -175,6 +177,9 @@
   <footer class="colored-section" id="footer">
     <p>© Copyright Slučajni prolaznici 2022.</p>
   </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+
 </body>
 
 </html>
