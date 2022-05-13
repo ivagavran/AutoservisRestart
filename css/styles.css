@@ -1,27 +1,5 @@
 body {
-    font-family: "Ubuntu";
-}
-
-.restart {
-    color: #F73859;
-    font-weight: 900;
-}
-
-.btn-icon {
-    color: #F73859;
-}
-
-.container-fluid {
-    padding: 3% 10% 0 10%;
-}
-
-.colored-section {
-    background-color: #303841;
-    color: white;
-}
-
-.white-section {
-    background-color: white;
+    font-family: "Kanit";
 }
 
 h2 {
@@ -35,6 +13,49 @@ h3 {
     font-weight: 1000;
 }
 
+h5 {
+    line-height: 1.5;
+    color: #8c8c8c;
+}
+
+.restart {
+    font-weight: 900;
+}
+
+.btn-icon,
+.restart {
+    color: #DA0037;
+}
+
+.btn-icon-rv,
+.colored-section {
+    color: white;
+}
+
+.colored-section {
+    background-color: #262c33;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 3% 10% 0 10%;
+}
+
+.proba {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.glavnicitat {
+    text-align: inherit;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
 .big-heading {
     font-size: 3rem;
     line-height: 1.5;
@@ -46,14 +67,13 @@ p {
     color: #8c8c8c;
 }
 
-h5 {
-    line-height: 1.5;
-    color: #8c8c8c;
+.rv {
+    text-align: center;
+    color: white;
 }
 
 .navbar {
     padding: 0;
-    /*4.5 bottom only*/
 }
 
 .navbar-brand {
@@ -65,23 +85,27 @@ h5 {
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-size: 1.15rem;
+    font-family: "Kanit";
 }
 
-.radnovrijeme-button,
-.kontakt-button {
-    margin: 5% 3% 5% 0;
+.open-button,
+.open-button2 {
+    margin: 2% 3% 5% 0;
 }
 
 .title-image {
-    width: 110%;
+    width: 100%;
     padding: 7rem 0 2rem 0;
 }
 
-#features {
-    padding: 7% 15%;
-    /*7 top bottom, 15 left right*/
+.wheel-img {
+    width: 10%;
+    padding: 2rem 0 2rem 0;
+}
+
+#features, #slide {
+    padding: 4% 10% 2% 10%;
 }
 
 .feature-box {
@@ -90,17 +114,12 @@ h5 {
 }
 
 .icon {
-    color: #303841;
     margin-bottom: 2rem;
-    color: #F73859;
+    color: #DA0037;
 }
 
 .icon:hover {
     color: black;
-}
-
-#testimonials {
-    text-align: center;
 }
 
 .carousel-item {
@@ -110,33 +129,54 @@ h5 {
 .heart {
     margin: 50px;
     width: 10%;
-    color: #F73859;
+    color: #DA0037;
+    text-align: right;
 }
 
-#onama {
-    padding: 70px 90px 0 90px;
+#team {
+    padding: 4% 15% 1% 15%;
     /*top left bottom right*/
 }
 
-.uvod {
-    padding: 0 0 0 4rem;
+.card-header {
+    padding-top: 5%;
 }
 
-.onama-column {
-    padding: 7% 2%;
+.team-column {
+    padding: 5% 2%;
     text-align: center;
 }
 
-.onama-image-davor {
+.imgdav {
     width: 35%;
     border-radius: 100%;
     margin: 20px;
+    transition: 0.5% ease-in-out;
 }
 
-.onama-image-antun {
+.team-image-davor {
+    width: 35%;
+    border-radius: 100%;
+    margin: 20px;
+    transition: 0.5% ease-in-out;
+}
+
+.team-image-davor:hover {
+    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
+}
+
+.imgdav:hover {
+    transform: translateY(-100px);
+}
+
+.team-image-antun {
     width: 37%;
     border-radius: 100%;
     margin: 25px;
+}
+
+.team-image-antun:hover {
+    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
 }
 
 #footer {
@@ -149,11 +189,10 @@ h5 {
 }
 
 .restartteam {
-    padding: 0 0 3%;
+    padding: 0 0 0;
 }
 
 @media (max-width: 1028) {
-
     /*ne radi 84.*/
     /*vrijedi za 1028 i manje od toga, ne za više*/
     body {
@@ -164,6 +203,161 @@ h5 {
         width: 60%;
         position: static;
     }
+}
+
+#modaltime {
+    max-width: 600px;
+    height: 300px;
+    background: linear-gradient(45deg, #DA0037, #262c33);
+    /* #303841);*/
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    max-width: 50ch;
+    width: 300px;
+    height: 355px;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    margin: auto;
+}
+
+#modal {
+    background: linear-gradient(45deg, #DA0037, #262c33);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    max-width: 50ch;
+    width: 500px;
+    height: 630px;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    margin: auto;
+}
+
+.open-button {
+    color: white;
+    background-color: #DA0037;
+    border-color: white;
+}
+
+.open-button-obr {
+
+    margin-left: 38%;
+    margin-top: 4%;
+}
+
+.close-button2 {
+    margin-left: 85%;
+    background-color: #303841;
+}
+
+.close-button {
+    margin-left: 90%;
+    background-color: #303841;
+}
+
+.mail {
+    margin-bottom: 3.5%;
+}
+
+.obrazac {
+    margin: 0 0 0 2%;
+    /*odmaknuto u lijevo*/
+    position: absolute;
+}
+
+.h5obrazac {
+    color: white;
+}
+
+.pobrazac {
+    margin: 0 0 6.5% 0;
+    /*bottom*/
+    color: white;
+}
+
+.opis {
+    text-align: left;
+}
+
+.naglaseno {
+    color: #DA0037;
+}
+
+.pozega {
+    color: #DA0037;
+}
+
+.naslov {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.naslovteam {
+    text-align: center;
+
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    margin: 0 0 15% 0;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.9;
+}
+
+.content {
+    /*centriranje unutar contenta*/
+    height: 530px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #DA0037;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#myBtn:hover {
+    background-color: #303841;
+}
+
+.ime {
+    font-size: 2.5rem;
+
 }
 
 /* id > class > h element */
