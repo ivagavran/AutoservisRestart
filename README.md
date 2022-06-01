@@ -6,8 +6,6 @@ Autoservis Restart projekt je izrade web aplikacije iz kolegija Web programiranj
 
 Projekt će biti podijeljen na 5 laboratorijskih vježbi. Svaka vježba imat će svoju granu na kojoj će biti prikazan trenutni napredak kako bi se razvoj aplikacije mogao kontinuirano pratiti.
 
-Deployment: https://ivagavran.github.io/AutoservisRestart/
-
 ## Jezici i tehnologije 
 
   1. HTML
