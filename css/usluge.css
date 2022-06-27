@@ -91,7 +91,22 @@ p, h5 {
     text-align: left;
 }
 
-.naslov {
+.naslovcjenik {
+    padding: 4% 0 0 0;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.row.cjenik{
+    padding: 0 10% 0 10%;
+}
+
+.card.cjenik{
+    border: 50;
+    border-color: #262c33;
+}
+
+.naslovusluge{
     text-align: center;
     margin-bottom: 5%;
 }

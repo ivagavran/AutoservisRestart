@@ -203,7 +203,6 @@ p, h5 {
     text-align: right;
 }
 
-
 .content {
     text-align: center;
     padding: 40px;
@@ -337,22 +336,6 @@ p, h5 {
 
 .btn-text-center{
 	text-align: center;	
-}
-
-/*cjenik*/
-.cjenik-column{
-    padding: 2% 2% 2% 25%;
-    text-align: center;
-}
-
-.naslovcjenik{
-    text-align: center;
-    padding-top: 4%;
-}
-
-.cijene{
-    font-size: 1.4rem;
-    
 }
 
 /*footer*/
