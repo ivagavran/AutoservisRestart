@@ -1,0 +1,97 @@
+body {
+    font-family: "Kanit";
+}
+
+.container-fluid {
+    padding: 3% 10% 0 10%;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+h5 {
+    line-height: 1.5;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 10rem 0 3rem 0;
+}
+
+.restart {
+    font-weight: 900;
+}
+
+.btn-icon,
+.restart, .pozega, .naglaseno, .icon {
+    color: #DA0037;
+}
+
+.btn-icon-rv,
+.colored-section {
+    color: white;
+}
+
+.colored-section {
+    background-color: #262c33;
+}
+
+.white-section {
+    background-color: white;
+}
+
+p, h5 {
+    color: #8c8c8c;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.15rem;
+    font-family: "Kanit";
+}
+
+#features, #slide {
+    padding: 4% 10% 0% 10%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+.opis {
+    text-align: left;
+}
+
+.naslov {
+    text-align: center;
+    margin-bottom: 5%;
+}

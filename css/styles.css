@@ -2,6 +2,15 @@ body {
     font-family: "Kanit";
 }
 
+.container-fluid {
+    padding: 3% 10% 0 10%;
+}
+
+.restart {
+    font-weight: 900;
+}
+
+/*headings*/
 h2 {
     font-size: 3rem;
     line-height: 1.5;
@@ -15,20 +24,27 @@ h3 {
 
 h5 {
     line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 10rem 0 3rem 0;
+}
+
+/*repeated colors*/
+p, h5 {
     color: #8c8c8c;
 }
 
-.restart {
-    font-weight: 900;
-}
-
 .btn-icon,
-.restart {
+.restart, .icon, .heart, .naglaseno, .pozega {
     color: #DA0037;
 }
 
 .btn-icon-rv,
-.colored-section {
+.colored-section, .rv, .open-button, .h5obrazac, .pobrazac, .content, #myBtn {
     color: white;
 }
 
@@ -40,36 +56,9 @@ h5 {
     background-color: white;
 }
 
-.container-fluid {
-    padding: 3% 10% 0 10%;
-}
-
-.proba {
-    text-align: right;
-    font-size: 1.5rem;
-    font-weight: 100;
-}
-
-.glavnicitat {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 100;
-}
-
-.big-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
-    padding: 10rem 0 3rem 0;
-}
-
-p {
-    color: #8c8c8c;
-}
-
+/*početna*/
 .rv {
     text-align: center;
-    color: white;
 }
 
 .navbar {
@@ -102,107 +91,6 @@ p {
 .wheel-img {
     width: 10%;
     padding: 2rem 0 2rem 0;
-}
-
-#features, #slide {
-    padding: 4% 10% 2% 10%;
-}
-
-.feature-box {
-    text-align: center;
-    padding: 5%;
-}
-
-.icon {
-    margin-bottom: 2rem;
-    color: #DA0037;
-}
-
-.icon:hover {
-    color: black;
-}
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
-.heart {
-    margin: 50px;
-    width: 10%;
-    color: #DA0037;
-    text-align: right;
-}
-
-#team {
-    padding: 4% 15% 1% 15%;
-    /*top left bottom right*/
-}
-
-.card-header {
-    padding-top: 5%;
-}
-
-.team-column {
-    padding: 5% 2%;
-    text-align: center;
-}
-
-.imgdav {
-    width: 35%;
-    border-radius: 100%;
-    margin: 20px;
-    transition: 0.5% ease-in-out;
-}
-
-.team-image-davor {
-    width: 35%;
-    border-radius: 100%;
-    margin: 20px;
-    transition: 0.5% ease-in-out;
-}
-
-.team-image-davor:hover {
-    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
-}
-
-.imgdav:hover {
-    transform: translateY(-100px);
-}
-
-.team-image-antun {
-    width: 37%;
-    border-radius: 100%;
-    margin: 25px;
-}
-
-.team-image-antun:hover {
-    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
-}
-
-#footer {
-    text-align: center;
-    padding: 2% 0 1% 0;
-}
-
-.card-body {
-    text-align: left;
-}
-
-.restartteam {
-    padding: 0 0 0;
-}
-
-@media (max-width: 1028) {
-    /*ne radi 84.*/
-    /*vrijedi za 1028 i manje od toga, ne za više*/
-    body {
-        text-align: center;
-    }
-
-    .title-image {
-        width: 60%;
-        position: static;
-    }
 }
 
 #modaltime {
@@ -242,7 +130,6 @@ p {
 }
 
 .open-button {
-    color: white;
     background-color: #DA0037;
     border-color: white;
 }
@@ -267,48 +154,59 @@ p {
     margin-bottom: 3.5%;
 }
 
-.obrazac {
-    margin: 0 0 0 2%;
-    /*odmaknuto u lijevo*/
-    position: absolute;
-}
-
-.h5obrazac {
-    color: white;
-}
-
 .pobrazac {
     margin: 0 0 6.5% 0;
     /*bottom*/
-    color: white;
 }
 
-.opis {
-    text-align: left;
-}
-
-.naglaseno {
-    color: #DA0037;
-}
-
-.pozega {
-    color: #DA0037;
-}
-
-.naslov {
+.mailresponse {
     text-align: center;
-    margin-bottom: 5%;
+    font-size: 2rem;
+    font-weight: 100;
 }
 
-.naslovteam {
+/*usluge*/
+#features, #slide {
+    padding: 4% 10% 0% 10%;
+    position:relative;
+}
+
+.feature-box {
     text-align: center;
-
+    padding: 5%;
 }
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+/*iskustvo*/
+.iskustvo {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.glavnicitat {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.heart {
+    margin: 50px;
+    width: 10%;
+    text-align: right;
+}
+
 
 .content {
     text-align: center;
     padding: 40px;
-    color: #fff;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(12px);
@@ -335,6 +233,85 @@ p {
     justify-content: center
 }
 
+/*team*/
+#team {
+    padding: 4% 15% 1% 15%;
+    /*top left bottom right*/
+}
+
+.card-header {
+    padding-top: 5%;
+}
+
+.team-column {
+    padding: 5% 2%;
+    text-align: center;
+}
+
+.ime {
+    font-size: 2.5rem;
+}
+
+.team-image-davor {
+    width: 35%;
+    border-radius: 100%;
+    margin: 20px;
+    transition: 0.5% ease-in-out;
+}
+
+.team-image-davor:hover {
+    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
+}
+
+.imgdav:hover {
+    transform: translateY(-100px);
+}
+
+.team-image-antun {
+    width: 37%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.team-image-antun:hover {
+    transform: translate(-20px, -40px) rotate(0deg) scale(1.8);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.restartteam {
+    padding: 0 0 0;
+}
+
+@media (max-width: 1028) {
+    /*ne radi 84.*/
+    /*vrijedi za 1028 i manje od toga, ne za više*/
+    body {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        position: static;
+    }
+}
+
+.opis {
+    text-align: left;
+}
+
+.naslov {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.naslovteam {
+    text-align: center;
+}
+
+/*buttons*/
 #myBtn {
     display: none;
     position: fixed;
@@ -345,7 +322,6 @@ p {
     border: none;
     outline: none;
     background-color: #DA0037;
-    color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 100%;
@@ -355,9 +331,34 @@ p {
     background-color: #303841;
 }
 
-.ime {
-    font-size: 2.5rem;
+.saznajvise {
+    align-items: center;
+}
 
+.btn-text-center{
+	text-align: center;	
+}
+
+/*cjenik*/
+.cjenik-column{
+    padding: 2% 2% 2% 25%;
+    text-align: center;
+}
+
+.naslovcjenik{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.cijene{
+    font-size: 1.4rem;
+    
+}
+
+/*footer*/
+#footer {
+    text-align: center;
+    padding: 2% 0 1% 0;
 }
 
 /* id > class > h element */

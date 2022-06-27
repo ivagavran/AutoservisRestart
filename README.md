@@ -14,4 +14,4 @@ Deployment: https://ivagavran.github.io/AutoservisRestart/
   2. CSS
   3. Bootstrap, JavaScript
   4. JavaScript, jQuery, OwlCarousel2, dopuna sadržaja
-  5. php, formatiranje koda
+  5. PHP, formatiranje koda

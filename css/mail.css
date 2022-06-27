@@ -1,0 +1,28 @@
+body {
+    font-family: "Kanit";
+    background-color: #262c33;
+    color: whitesmoke;
+}
+
+.zahvala{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 10% 0% 2% 0%; /*gore lijevo dolje desno*/
+}
+
+.odgovor {
+    padding: 2% 0% 5% 0%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.back-button {
+    background: linear-gradient(45deg, #DA0037, #262c33);
+    border-color: white;
+}
+
+.btn-text-center{
+    text-align: center;
+}
