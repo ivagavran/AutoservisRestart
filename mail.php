@@ -23,8 +23,8 @@
 	$mail->SMTPSecure = "tls";
 	$mail->Port = "587";
 
-	$mail->Username = "ivagavran314@gmail.com";
-	$mail->Password = "nvctqvpbhligzout";
+	$mail->Username = "";
+	$mail->Password = "";
 
 	$mail->Subject = "Autoservis Restart - Nova Poruka";
     $mail->SetFrom($email, $ime);
